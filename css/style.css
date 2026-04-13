@@ -80,11 +80,11 @@ h6 {
 
 .app__title {
   line-height: 150%;
-  font-size: 5.2rem;
+  font-size: 4.9rem;
   font-style: normal;
   color: var(--color-secondary);
   font-weight: 200;
-  max-width: 46rem;
+  max-width: 54rem;
 }
 
 .app__title-strong {

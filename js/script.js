@@ -54,18 +54,18 @@ function alterarContexto(contexto) {
   switch (contexto) {
     case "foco":
       titulo.innerHTML = `
-      Otimize sua produtividade,<br />
-          <strong class="app__title-strong">mergulhe no que importa.</strong>`;
+      Optimize your productivity,<br />
+          <strong class="app__title-strong">focus on what matters.</strong>`;
       break;
     case "descanso-curto":
       titulo.innerHTML = `
-      Que tal dar uma respirada?<br />
-          <strong class="app__title-strong">Faça uma pausa curta!</strong>`;
+      How about taking a breath?<br />
+          <strong class="app__title-strong">Take a short break!</strong>`;
       break;
     case "descanso-longo":
       titulo.innerHTML = `
-      Hora de voltar à superfície.<br />
-          <strong class="app__title-strong">Faça uma pausa longa!</strong>`;
+      Time to come back to the surface.<br />
+          <strong class="app__title-strong">Take a long break!</strong>`;
 
     default:
       break;
@@ -94,12 +94,12 @@ function iniciarOuPausar() {
   imagePause.setAttribute("src", `./assets/images/pause.png`);
   audioPlay.play();
   intervaloId = setInterval(contagemRegressiva, 1000);
-  iniciarOuPausarBt.textContent = "Pausar";
+  iniciarOuPausarBt.textContent = "Pause";
 }
 function zerar() {
   clearInterval(intervaloId);
   imagePause.setAttribute("src", `./assets/images/play_arrow.png`);
-  iniciarOuPausarBt.textContent = "Começar";
+  iniciarOuPausarBt.textContent = "Start";
   intervaloId = null;
 }
 function mostrarTempo() {
