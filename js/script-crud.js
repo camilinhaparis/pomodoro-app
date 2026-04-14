@@ -45,7 +45,9 @@ formAdicionarTarefa.addEventListener("submit", (evento) => {
   const elementoTarefa = criarElementoTarefa(tarefa);
   ulTarefas.append(elementoTarefa);
   localStorage.setItem("tarefas", JSON.stringify(tarefas));
+  //limpa texarea
   textArea.value = "";
+  //esconder o formulario class hidden
   formAdicionarTarefa.classList.add("hidden");
 });
 
