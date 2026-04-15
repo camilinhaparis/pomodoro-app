@@ -1,6 +1,6 @@
 <h1 align="center"> 🍅 FocusFlow - Pomodoro Timer</h1>
 A simple and interactive Pomodoro Timer built with HTML, CSS, and JavaScript to help improve focus and productivity using the Pomodoro Technique.
-
+<br>
 <p align="center">
   <img alt="preview-focus" src="./github/preview.png" width="30%">
   <img alt="preview-Short-break" src="./github/preview2.png" width="30%">
